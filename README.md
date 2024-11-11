@@ -31,23 +31,6 @@ SHAP Analysis: Using SHAP (SHapley Additive exPlanations) to explain the contrib
 
 #### 4. Key Findings
       
-Overfitting: 
-
-- Perfect accuracy during training may indicate that the model has memorized the training data, meaning it performs well on known data but fails to generalize to unseen data.
-
-Addressing Overfitting:
-- Use cross-validation to ensure the model is evaluated on different subsets of data.
-- Apply regularization techniques (like L1 or L2 regularization) to simplify the model and reduce overfitting.
-- Evaluate simpler models first, such as Logistic Regression, to check for overfitting.
-
-Data Leakage: 
-
-- If information from the target variable leaks into the feature set (directly or indirectly), the model may achieve artificially high accuracy.
-
-Preventing Data Leakage: 
-
-- Carefully review the data to ensure no features are directly derived from the target variable.
-
 Too Simple of a Problem: 
 - The dataset may be simple or well-structured, making it easier for the model to achieve perfect accuracy.
 - Next Steps: If the problem is simple, consider adding more complexity to the dataset or introducing more difficult classification tasks.
