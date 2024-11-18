@@ -19,21 +19,19 @@ The dataset is entirely synthetic and includes the following columns:
 - inspection_method: How the defect was detected (e.g., manual inspection, automated testing).
 - repair_cost: The cost of repairing the defect.
 
-#### 3. Data Analysis Steps
+#### 3. Project Workflow
 
-- Data Preprocessing: Cleaning and encoding categorical variables, scaling numerical variables, and handling missing data.
-Feature Engineering: Creating new features such as defect frequency over time and mapping severity levels to numerical values.
-
-- Modeling: Training machine learning models such as Random Forest and Logistic Regression to predict the severity of manufacturing defects.
-
-- Cross-Validation: Using K-Fold cross-validation to validate the performance of the models and address overfitting concerns.
-SHAP Analysis: Using SHAP (SHapley Additive exPlanations) to explain the contribution of each feature to the model’s predictions.
+- Data Loading and Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Splitting and Resampling
+- Model Training and Hyperparameter Tuning
+- Evaluation: Use SHAP to interpret feature importance.
+- Predictions and Insights
 
 #### 4. Key Findings
       
-Too Simple of a Problem: 
-- The dataset may be simple or well-structured, making it easier for the model to achieve perfect accuracy.
-- Next Steps: If the problem is simple, consider adding more complexity to the dataset or introducing more difficult classification tasks.
+- Cross-Validation Metrics: Accuracy (~30%) and Weighted F1 Score (~30%)
+- Best Model: XGBoost with tuned hyperparameters.
 
 #### 5. Future Work
 
