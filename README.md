@@ -62,7 +62,7 @@ Dataset Size: 1,000 records with no missing values after cleaning.
      - Recall: Measures the model's ability to identify all positive cases.
      - F1-Score: Harmonic mean of precision and recall for balanced evaluation.
 
-### Results:
+### Results
 
 Model Performance: Precision, Recall, and F1-Scores were moderate (~0.30), indicating the need for further feature enrichment or advanced modeling.
 
